@@ -41,6 +41,6 @@ public class BinaryCode {
     }
 
     private int toInt(char c) {
-        return Integer.parseInt(c + "");
+        return Character.getNumericValue(c);
     }
 }
